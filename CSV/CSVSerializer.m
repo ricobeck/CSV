@@ -33,6 +33,7 @@
 {
     if (self = [self init]) {
         [self setOutput:output];
+        self.literalChar = @"";
         self.separatorChar = @",";
         self.lineBreak = @"\n";
     }
