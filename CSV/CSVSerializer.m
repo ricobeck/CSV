@@ -46,7 +46,13 @@
 
 - (void)visitRow:(CSVRow *)row
 {
-    NSString *commaSeparatedValues = [[row values] componentsJoinedByString:self.separatorChar];
+    NSArray *values = [row values];
+    NSMutableArray *formattedValues = [NSMutableArray new];
+    for (NSString *value in values)
+    {
+        [formattedValues addObject:[NSString stringWithFormat:@"%@%@%@", self.literalChar, value, self.literalChar]];
+    }
+    NSString *commaSeparatedValues = [formattedValues componentsJoinedByString:self.separatorChar];
     [[self output] appendString:commaSeparatedValues];
     [[self output] appendString:self.lineBreak];
 }
