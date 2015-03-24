@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name = 'CSV'
   s.version = '0.0.1'
   s.license = 'MIT'
-  s.platform = :ios, '5.0'
+  s.platform = :osx
   s.summary = "Format data to the comma-separated values format."
   s.homepage = 'https://github.com/rdavies/CSV'
   s.author = { 'Ryan Davies' => 'ryan@ryandavies.net' }
