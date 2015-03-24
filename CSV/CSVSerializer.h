@@ -33,6 +33,11 @@
 @property (nonatomic, strong) NSString *separatorChar;
 
 /**
+ * Sets the literal char. Default value is ''.
+ */
+@property (nonatomic, strong) NSString *literalChar;
+
+/**
  * Sets line breaks for different systems. Default value is '\n'.
  */
 @property (nonatomic, strong) NSString *lineBreak;
