@@ -16,7 +16,6 @@
 		1D39B3201B825B47009B98A3 /* CSVRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FA5170F0680009C87DC /* CSVRow.m */; };
 		1D39B3211B825B47009B98A3 /* CSVSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A03FAF170F52BA009C87DC /* CSVSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D39B3221B825B47009B98A3 /* CSVSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FB0170F52BA009C87DC /* CSVSerializer.m */; };
-		1D39B3251B8264B8009B98A3 /* CSV-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D39B3241B8264B8009B98A3 /* CSV-Info.plist */; };
 		94A03F56170EF5E0009C87DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F55170EF5E0009C87DC /* SenTestingKit.framework */; };
 		94A03F59170EF5E0009C87DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F46170EF5E0009C87DC /* Foundation.framework */; };
 		94A03F88170EFF90009C87DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F55170EF5E0009C87DC /* SenTestingKit.framework */; };
@@ -95,8 +94,8 @@
 		94A03F3A170EF5E0009C87DC = {
 			isa = PBXGroup;
 			children = (
-				1D39B3231B82649B009B98A3 /* Resources */,
 				94A03F7C170EFF65009C87DC /* CSV */,
+				1D39B3231B82649B009B98A3 /* Resources */,
 				94A03F75170EFF20009C87DC /* Unit Tests */,
 				94A03F8B170EFF90009C87DC /* Integrated Tests */,
 				94A03F45170EF5E0009C87DC /* Frameworks */,
@@ -290,7 +289,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D39B3251B8264B8009B98A3 /* CSV-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
