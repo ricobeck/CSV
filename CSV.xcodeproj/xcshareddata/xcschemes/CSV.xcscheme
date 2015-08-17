@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D39B3111B825B3F009B98A3"
-               BuildableName = "RDCSV.framework"
-               BlueprintName = "RDCSV"
+               BuildableName = "CSV.framework"
+               BlueprintName = "CSV"
                ReferencedContainer = "container:CSV.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D39B3111B825B3F009B98A3"
-            BuildableName = "RDCSV.framework"
-            BlueprintName = "RDCSV"
+            BuildableName = "CSV.framework"
+            BlueprintName = "CSV"
             ReferencedContainer = "container:CSV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D39B3111B825B3F009B98A3"
-            BuildableName = "RDCSV.framework"
-            BlueprintName = "RDCSV"
+            BuildableName = "CSV.framework"
+            BlueprintName = "CSV"
             ReferencedContainer = "container:CSV.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

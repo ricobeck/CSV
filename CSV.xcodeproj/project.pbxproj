@@ -16,57 +16,21 @@
 		1D39B3201B825B47009B98A3 /* CSVRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FA5170F0680009C87DC /* CSVRow.m */; };
 		1D39B3211B825B47009B98A3 /* CSVSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A03FAF170F52BA009C87DC /* CSVSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D39B3221B825B47009B98A3 /* CSVSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FB0170F52BA009C87DC /* CSVSerializer.m */; };
-		94A03F47170EF5E0009C87DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F46170EF5E0009C87DC /* Foundation.framework */; };
 		94A03F56170EF5E0009C87DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F55170EF5E0009C87DC /* SenTestingKit.framework */; };
 		94A03F59170EF5E0009C87DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F46170EF5E0009C87DC /* Foundation.framework */; };
-		94A03F5C170EF5E0009C87DC /* libCSV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F43170EF5E0009C87DC /* libCSV.a */; };
 		94A03F88170EFF90009C87DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F55170EF5E0009C87DC /* SenTestingKit.framework */; };
 		94A03F8A170EFF90009C87DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F46170EF5E0009C87DC /* Foundation.framework */; };
 		94A03F93170EFF90009C87DC /* CSVSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03F92170EFF90009C87DC /* CSVSerializationTests.m */; };
-		94A03F9A170EFFCB009C87DC /* libCSV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A03F43170EF5E0009C87DC /* libCSV.a */; };
 		94A03F9D170F0137009C87DC /* CSVTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03F9C170F0137009C87DC /* CSVTableTests.m */; };
-		94A03FA0170F016C009C87DC /* CSVTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03F9F170F016C009C87DC /* CSVTable.m */; };
-		94A03FA6170F0680009C87DC /* CSVRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FA5170F0680009C87DC /* CSVRow.m */; };
 		94A03FAB170F0ADC009C87DC /* CSVRowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FAA170F0ADC009C87DC /* CSVRowTests.m */; };
 		94A03FAE170F519D009C87DC /* CSVSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FAD170F519D009C87DC /* CSVSerializerTests.m */; };
-		94A03FB1170F52BA009C87DC /* CSVSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A03FB0170F52BA009C87DC /* CSVSerializer.m */; };
 		AE8585A1E77146E2A721F120 /* libPods-Unit Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F70D663A4B4B99A3733301 /* libPods-Unit Tests.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		94A03F5A170EF5E0009C87DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94A03F3B170EF5E0009C87DC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94A03F42170EF5E0009C87DC;
-			remoteInfo = CSV;
-		};
-		94A03F98170EFFC1009C87DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94A03F3B170EF5E0009C87DC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 94A03F42170EF5E0009C87DC;
-			remoteInfo = CSV;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		94A03F41170EF5E0009C87DC /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1D39B3121B825B3F009B98A3 /* RDCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D39B3121B825B3F009B98A3 /* CSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D39B3161B825B3F009B98A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F70D663A4B4B99A3733301 /* libPods-Unit Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Unit Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94A03F43170EF5E0009C87DC /* libCSV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCSV.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A03F46170EF5E0009C87DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94A03F54170EF5E0009C87DC /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A03F55170EF5E0009C87DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,19 +62,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94A03F40170EF5E0009C87DC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94A03F47170EF5E0009C87DC /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94A03F50170EF5E0009C87DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A03F5C170EF5E0009C87DC /* libCSV.a in Frameworks */,
 				94A03F59170EF5E0009C87DC /* Foundation.framework in Frameworks */,
 				94A03F56170EF5E0009C87DC /* SenTestingKit.framework in Frameworks */,
 				AE8585A1E77146E2A721F120 /* libPods-Unit Tests.a in Frameworks */,
@@ -121,7 +76,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A03F9A170EFFCB009C87DC /* libCSV.a in Frameworks */,
 				94A03F8A170EFF90009C87DC /* Foundation.framework in Frameworks */,
 				94A03F88170EFF90009C87DC /* SenTestingKit.framework in Frameworks */,
 			);
@@ -154,10 +108,9 @@
 		94A03F44170EF5E0009C87DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94A03F43170EF5E0009C87DC /* libCSV.a */,
 				94A03F54170EF5E0009C87DC /* Unit Tests.octest */,
 				94A03F87170EFF90009C87DC /* Integrated Tests.octest */,
-				1D39B3121B825B3F009B98A3 /* RDCSV.framework */,
+				1D39B3121B825B3F009B98A3 /* CSV.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,9 +197,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D39B3111B825B3F009B98A3 /* RDCSV */ = {
+		1D39B3111B825B3F009B98A3 /* CSV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D39B3191B825B3F009B98A3 /* Build configuration list for PBXNativeTarget "RDCSV" */;
+			buildConfigurationList = 1D39B3191B825B3F009B98A3 /* Build configuration list for PBXNativeTarget "CSV" */;
 			buildPhases = (
 				1D39B30D1B825B3F009B98A3 /* Sources */,
 				1D39B30E1B825B3F009B98A3 /* Frameworks */,
@@ -257,27 +210,10 @@
 			);
 			dependencies = (
 			);
-			name = RDCSV;
-			productName = RDCSV;
-			productReference = 1D39B3121B825B3F009B98A3 /* RDCSV.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		94A03F42170EF5E0009C87DC /* CSV */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 94A03F68170EF5E0009C87DC /* Build configuration list for PBXNativeTarget "CSV" */;
-			buildPhases = (
-				94A03F3F170EF5E0009C87DC /* Sources */,
-				94A03F40170EF5E0009C87DC /* Frameworks */,
-				94A03F41170EF5E0009C87DC /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
 			name = CSV;
-			productName = CSV;
-			productReference = 94A03F43170EF5E0009C87DC /* libCSV.a */;
-			productType = "com.apple.product-type.library.static";
+			productName = RDCSV;
+			productReference = 1D39B3121B825B3F009B98A3 /* CSV.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		94A03F53170EF5E0009C87DC /* Unit Tests */ = {
 			isa = PBXNativeTarget;
@@ -292,7 +228,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				94A03F5B170EF5E0009C87DC /* PBXTargetDependency */,
 			);
 			name = "Unit Tests";
 			productName = CSVTests;
@@ -311,7 +246,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				94A03F99170EFFC1009C87DC /* PBXTargetDependency */,
 			);
 			name = "Integrated Tests";
 			productName = "Integrated Tests";
@@ -345,10 +279,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94A03F42170EF5E0009C87DC /* CSV */,
 				94A03F53170EF5E0009C87DC /* Unit Tests */,
 				94A03F86170EFF90009C87DC /* Integrated Tests */,
-				1D39B3111B825B3F009B98A3 /* RDCSV */,
+				1D39B3111B825B3F009B98A3 /* CSV */,
 			);
 		};
 /* End PBXProject section */
@@ -431,16 +364,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94A03F3F170EF5E0009C87DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94A03FA0170F016C009C87DC /* CSVTable.m in Sources */,
-				94A03FA6170F0680009C87DC /* CSVRow.m in Sources */,
-				94A03FB1170F52BA009C87DC /* CSVSerializer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94A03F4F170EF5E0009C87DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,19 +383,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		94A03F5B170EF5E0009C87DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94A03F42170EF5E0009C87DC /* CSV */;
-			targetProxy = 94A03F5A170EF5E0009C87DC /* PBXContainerItemProxy */;
-		};
-		94A03F99170EFFC1009C87DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 94A03F42170EF5E0009C87DC /* CSV */;
-			targetProxy = 94A03F98170EFFC1009C87DC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D39B3171B825B3F009B98A3 /* Debug */ = {
@@ -604,26 +514,6 @@
 			};
 			name = Release;
 		};
-		94A03F69170EF5E0009C87DC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/CSV.dst;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		94A03F6A170EF5E0009C87DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DSTROOT = /tmp/CSV.dst;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		94A03F6C170EF5E0009C87DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D5BA2348C874475BB8C0346E /* Pods-Unit Tests.xcconfig */;
@@ -685,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D39B3191B825B3F009B98A3 /* Build configuration list for PBXNativeTarget "RDCSV" */ = {
+		1D39B3191B825B3F009B98A3 /* Build configuration list for PBXNativeTarget "CSV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D39B3171B825B3F009B98A3 /* Debug */,
@@ -698,15 +588,6 @@
 			buildConfigurations = (
 				94A03F66170EF5E0009C87DC /* Debug */,
 				94A03F67170EF5E0009C87DC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94A03F68170EF5E0009C87DC /* Build configuration list for PBXNativeTarget "CSV" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94A03F69170EF5E0009C87DC /* Debug */,
-				94A03F6A170EF5E0009C87DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
